@@ -1,0 +1,62 @@
+
+/* Header responsive */
+@media screen and (max-width: 1100px ){
+    .head-superior{
+        display: none;
+    }
+  }
+  
+  @media screen and (max-width: 940px ){
+    header #logo img{
+      margin-left: 0px;
+    }
+    nav{
+      margin-right: 0px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 750px ){
+    /*Minimenu responsive*/
+    #menu-icon {
+      display: inline-block;
+      color: white;
+    }
+    nav:hover ul {
+      display: block;
+    }
+  
+    nav ul, nav:active ul {
+      display: none;
+      z-index: 1000;
+      position: absolute;
+      opacity: .95;
+      background-color: rgba(255, 0, 0, 0.832);
+      border: 1px solid #f5f5f5; 
+      width: 100%;
+      height: 100vh;
+      top: 100px;
+      left: 0;
+  
+    }
+    nav li {
+      text-align: center;
+      width: 100%;
+    }
+    nav ul li a{
+      display: block;
+      padding: 15px;
+      height: 50px;
+      text-decoration: none;
+      border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+      font-size: medium;
+  
+    }
+    nav ul li a:hover{
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+  
+  }
+  
+
+

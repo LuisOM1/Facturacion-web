@@ -57,7 +57,7 @@
       text-decoration: none;
       color: white;
       padding-left: 20px;
-      padding: 12px;
+      padding: 11px;
     }
 
 
@@ -94,7 +94,7 @@ header {
   header #logo img{
     padding: 10px;
     float: left;
-    width: 120px;
+    height: 100px;
     margin-left: 140px;
   }
 
@@ -142,4 +142,3 @@ header {
     a:hover {
       color: #a5bdcd;
     }
-
