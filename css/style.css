@@ -1,3 +1,11 @@
+:root{
+  --color-rojo-logo: rgba(255, 0, 0, 0.832); 
+  --color-negro-logo: black;
+  --color-amarillo-primary: rgba(255, 255, 0, 0.623);
+  --color-blanco-primary: white;
+  
+}
+
 
 * {
   margin: 0;

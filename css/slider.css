@@ -33,7 +33,7 @@
         .text-slider h2{
             text-align: left;
             font-size: 42px;
-            color: white;
+            color: var(--color-blanco-primary);
             font-family: poppins,sans-serif;
             font-weight: 800;
             line-height: 1.2;
@@ -43,7 +43,7 @@
 
         .text-slider p {
             text-align: justify;
-            color: white;
+            color: var(--color-blanco-primary);
         }
 
 
@@ -129,11 +129,11 @@
                 cursor: pointer;
                 padding: 10px 25px;
                 border-radius: 30px;
-                color: #fff;
+                color: var(--color-blanco-primary);
                 font-weight: 600;
                 margin-top: 10px;
                 width: 100%;
-                background:  rgba(255, 0, 0, 0.832);
+                background:  var(--color-rojo-logo);
             }
             
 
