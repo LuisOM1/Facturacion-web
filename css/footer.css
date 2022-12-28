@@ -1,53 +1,138 @@
 
 
-
 .footer{
     background-color: #072146;
-    padding: 40px 16px 80px;
-    text-align: center;
+    height: 300px;
+    text-align: left;
 }
 
     .footer_container{
         max-width: 100%;
+        position: relative;
+
     }
 
         .footer_logo{
-            display: inline-block;
-            margin: 24px 0;
+            text-align:left;
+            max-width:168px;
+            margin-left: 130px;
         }
 
 
         .footer_links{
-            text-align: center;
             margin-bottom: 40px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
             .footer_list{
                 word-wrap: break-word;
-                text-align: center;
+                text-align: justify;
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
                 margin: auto;
+                width: 70%;
+                
             }
 
-            .link{
-                box-sizing: border-box;
-                position: relative;
-                zoom: 1;
-                display: block;
-                width: auto;
+                .link{
+                    box-sizing: border-box;
+                    position: relative;
+                    zoom: 1;
+                    display: block;
+                }
+
+                    .link_content{
+                        font-family: Helvetica,Arial,sans-serif;
+                        font-size: 15px;
+                        line-height: 24px;
+                        text-decoration: none;
+                        color: #49a5e6;
+                        padding: 8px;
+                        display: inline-block;
+                        text-align: justify;
+                        font-weight: bold;
+                    }
+        
+        .footer_social{
+            position:absolute;
+            width: 20%;
+            top:20px;
+            right:60px;
+            flex-wrap:wrap;
+            justify-content:flex-end;
+        }
+
+            .footer_sociallinks{
+                width: calc(100% - 64px);
+                margin: auto;
             }
 
-            .link_content{
-                font-family: BentonSansBBVA-Medium,Helvetica,Arial,sans-serif;
-                font-size: 15px;
-                line-height: 24px;
-                text-decoration: none;
-                color: #49a5e6;
-                padding: 8px;
+                .footer_sociallinks a {
+                    text-decoration: none;
+                    line-height: 24px;
+                    color:#072146;
+                    width: 32px;
+                    height: 32px;
+                    display: inline-block;
+                    font-size: 20px;
+                    margin: 8px 4px;
+                    background: #1973b8;
+                    border-radius: 50%;
+                    text-align: center;
+
+                }
+
+                    .footer_sociallinks a:hover{
+                        background: #bdbdbd;
+                    }
+
+
+        .footer_derechos{
+            text-align: center;
+        
+        }
+
+            .footer_copyright{
+                font-family: Helvetica,Arial,sans-serif;
+                font-size: 12px;
+                line-height: 16px;
+                color: #bdbdbd;
+                padding: 8px 16px 24px;
+            }
+
+
+/* Footer responsive */
+@media screen and (max-width: 1000px ){
+    .footer{
+        height: auto;
+        text-align: center;
+    }
+    
+            .footer_logo{
                 display: inline-block;
+                margin: 24px 0;
+            }
+    
+            .footer_links{
+                height: auto;
                 text-align: center;
-                /*font-weight: bold; */
+                margin-bottom: 40px;
+            }
+    
+                .footer_list{
+                    width: auto;
+                }
+    
+            .footer_social{
+                width: auto;
+                top:0;
+                right:0;
+                text-align: center;
+                position: inherit;
             }
 
+  }
