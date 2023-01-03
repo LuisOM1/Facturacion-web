@@ -85,20 +85,21 @@
                     }
 
 
+
+
     .contacto_container_right{
         width: 50%;
         height: 550px;
         float: right;
 
     }
-
         .contacto_ubicacion{
             height: 550px;
             margin-right: 135px;
 
         }
 
-            .contacto_nav_tabs{
+            .contacto_options{
                 text-align: left;
                 margin-top: 70px;
                 margin-right: 15px;
@@ -109,46 +110,46 @@
 
             }
 
-                .nav-item{
+                .option{
+                    cursor: pointer;
                     display: inline-block;
                     padding: 3px;
-                    
+                    font-size: 23px;
+                    color: #0e2b3d;
+                    font-weight: 700;
                 }
 
-                    .nav-item a.active {
-                        border-bottom: 4px solid #334fba;
-                        color: #334fba;
-                    }
 
-                    .nav-link{
-                        text-decoration: none;
-                        font-size: 23px;
-                        color: #0e2b3d;
-                        font-weight: 700;
-                    }
+                .option-active {
+                    border-bottom: 4px solid #334fba;
+                    color: #334fba;
+                }
 
 
-            .contacto_tab_content{
+
+
+            .contacto_contents{
                 text-align: left;
                 margin-right: 15px;
                 margin-left: 15px;
 
             }
-            
-                .contacto_tab_content>.active {
-                    display: block;
-                }
-                .tab-pane {
+
+                .content {
                     display: none;
                 }
-            
-                    .contacto_tab_content li{
+
+                .content-active {
+                    display: block;
+                }
+                
+                    .contacto_contents li{
                         display: flex;
                         align-items: center;
                         margin-bottom: 30px;
                     }
 
-                        .contacto_tab_content li i{
+                        .contacto_contents li i{
                             color: #334fba;
                             display: inline-block;
                             font-size: 20px;
@@ -163,22 +164,30 @@
 
                         }
 
-                        .contacto_tab_content .info p{
+                        .contacto_contents .info p{
                             color: #0e2b3d;
                             font-size: 13px;
                         }
 
-                        .contacto_tab_content .info h4{
+                        .contacto_contents .info h4{
                             color: #0e2b3d;
                             font-size: 12px;
                             text-transform: uppercase;
                             margin-bottom: 5px;
                         }
 
-                .contacto_tab_content iframe{
+                    .contacto_contents iframe{
+                        display: block;
+                        height: 300px;
+                        position: relative;
+                        width: 100%;
+                        z-index: 1;
+                        padding: 15px;
+                        background: #fff;
+                        box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);
+                        border: none;
 
-                }
-
+                    }
 
 
             
