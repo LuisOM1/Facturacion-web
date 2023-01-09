@@ -103,9 +103,10 @@
 
     <!-- SLIDER -->
     <div class="slider"> 
+      <div class="slider_container">
         <!--DIV TEXTO-->
-        <div class="text-slider">
-            <div class="divtext">
+        <div class="slider_container_left">
+            <div class="slider_text">
                 <h2>Facturación Electrónica</h2><br>
                 <p> Plataforma de gestión de ventas, compras e inventarios utilizada
                     por <strong>miles de empresas</strong> en todo el <strong>Perú</strong>
@@ -114,8 +115,8 @@
         </div>
 
         <!--DIV FORM-->
-        <div class="form-slider">
-          <div class="divform">
+        <div class="slider_container_right">
+          <div class="slider_form">
 
             <div class="form-circle" >
               <div class="headform">
@@ -160,7 +161,7 @@
             </div>
           </div>
         </div>
-      
+      </div>
     </div>
 
     
@@ -206,6 +207,19 @@
     </div>
   </div>
 
+
+
+<!-- SECCION PRECIOS -->
+    <!-- Pondremos nuestro componente React dentro de este div. -->
+    <div id="like_button_container"></div>
+
+    <!-- Carga React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="lib/react/app_precios.js"></script>
 
 
 
